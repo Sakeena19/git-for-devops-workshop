@@ -1,20 +1,26 @@
-ubuntu@ip-172-31-25-168:~/git-for-devops-workshop$ history
-    1  mkdir git-for-devops-workshop
-    2  cd git-for-devops-workshop/
-    3  touch testing.py
-    4  ls
-    5  git init
-    6  git status
-    7  ls
-    8  ls -l
-    9  ls -a
-   10  git add testing.py
-   11  git status
-   12  git commit -m "added file"
-   13  git status
-   14  rm testing.py 
-   15  git status
-   16  git restore testing.py
-   17  git status
-   18  clear
-   19  history
+git status
+ clear
+git add .
+git status
+clear
+git status
+git commit -m "added testing files"
+clear
+git status
+rm testing.py
+ls
+clear
+git status
+git restore testing.py
+clear
+git status
+
+git remote add origin https://github.com/LondheShubham153/github-for-devops-workshop.git
+git remote -v
+git status
+ 
+git remote set-url origin https://github.com/LondheShubham153/github-for-devops-workshop.git
+clear
+git remote -v
+git push origin master
+clear
